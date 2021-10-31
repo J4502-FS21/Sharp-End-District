@@ -1,1 +1,65 @@
+body {
+  background: #ffffff;
+text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
+img {
+  border: 0;
+}
+
+h1 {
+background: none;
+margin: 10px;
+margin-top: 0px;
+margin-bottom: 3px;
+padding: 10px;
+font-family: 'Bebas Neue', cursive;
+font-size: 3rem;
+color: #E3B63B;
+}
+
+h2 {
+font-family: 'Roboto Slab', serif;
+font-size: 1.5rem;
+background: none;
+margin: 10px;
+padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  background: #000000;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family:'Bebas Neue', cursive;
+  font-size: 1.5rem;
+  color: white
+}
+
+a:hover{
+  background: #E3B63B;
+}
+
+img{
+  border: 0;
+}
+
+p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+}
