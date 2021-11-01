@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;
+  background: #000000;
 text-align: center;
   margin: 0;
   padding: 0;
@@ -20,19 +20,25 @@ font-size: 3rem;
 color: #E3B63B;
 }
 
+p1 {
+  color: white;
+}
+
 h2 {
 font-family: 'Roboto Slab', serif;
 font-size: 1.5rem;
 background: none;
 margin: 10px;
 padding: 10px;
+display: grid;
+color: white;
 }
 
 ul{
   list-style-type: none;
   margin: 10px;
   padding: 10px;
-  background: #000000;
+  background: #E3B63B;
 }
 
 li {
@@ -65,5 +71,6 @@ p{
   margin-left: 300px;
   margin-right: 300px;
   text-align: justify;
-  text-indent: inherit;
+  display: grid;
+  color: white;
 }
