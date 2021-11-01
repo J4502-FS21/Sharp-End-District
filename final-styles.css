@@ -61,5 +61,9 @@ img{
 
 p{
   font-family: 'Roboto Slab', serif;
-  font-size: 14px;
+  font-size: 16px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: left;
+  text-indent: inherit;
 }
