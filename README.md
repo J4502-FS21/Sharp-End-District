@@ -1,2 +1,2 @@
 # Sharp-End-District
-https://github.com/J4502-FS21/Sharp-End-District/
+https://j4502-fs21.github.io/Sharp-End-District/
