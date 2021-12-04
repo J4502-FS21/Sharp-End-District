@@ -74,9 +74,13 @@ p{
   display: grid;
   color: white;
 }
-
-caption{
-  text-align: left;
-  text-emphasis-color: #E3B63B;
-  margin-right: 200px;
+p2 {
+  font-family: 'Bebas Neue';
+  color: #E3B63B;
+  font-size: 14px;
+  margin-left: 300px;
+  margin-right:300px:
+  text-align: justify;
+  display: grid;
+}
 }
