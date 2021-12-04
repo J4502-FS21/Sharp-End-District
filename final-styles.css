@@ -76,5 +76,6 @@ p{
 }
 
 caption{
-  text-align: bottom;
+  text-align: center;
+  text-emphasis-color: #E3B63B;
 }
