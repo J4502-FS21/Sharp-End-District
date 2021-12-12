@@ -27,11 +27,33 @@ padding: 2px;
 color: white;
 }
 
-ul{
-  list-style-type: none;
-  margin: 10px;
-  padding: 10px;
-  background: #E3B63B;
+.topnav{
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: #E3B63B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #E3B63B;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 li {
@@ -50,9 +72,6 @@ a{
   color: white
 }
 
-a:hover{
-  background: #E3B63B;
-}
 
 img{
   border: 0;
