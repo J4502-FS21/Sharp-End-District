@@ -28,14 +28,14 @@ color: white;
 }
 
 .topnav{
-  background-color: black;
+  background-color: #E3B63B;
   overflow: hidden;
 }
 
 .topnav a{
   float: center;
   display: block;
-  color: #E3B63B;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -43,8 +43,8 @@ color: white;
 }
 
 .topnav a:hover {
-  background-color: #E3B63B;
-  color: black;
+  background-color: black;
+  color: #E3B63B;
 }
 
 .topnav a.active {
