@@ -1,8 +1,24 @@
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+"use strict";
+
+var menuNav = document.getElementById("menu_nav");
+
+var menuTrigger = document.getElementById('menu_trigger');
+
+function menuToggle() {
+  if (menuNav.style.display === "flex") {
+    menuNav.style.display = "none";
   } else {
-    x.className = "topnav";
+    menuNav.style.display = "flex";
+  }
+  console.log("The menu has been toggled!");
+}
+
+function checkWindowSize() {
+  if (window.innerWidth >= 600) {
+    menuNav.style.display = "flex";
   }
 }
+
+menuTrigger.onclick = menuToggle;
+
+window.onresize = checkWindowSize;
