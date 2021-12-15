@@ -27,6 +27,16 @@ padding: 2px;
 color: white;
 }
 
+a{
+  text-decoration: none;
+  font-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family:'Bebas Neue', cursive;
+  font-size: 1.5rem;
+  color: white;
+}
+
 nav {
   background: #E3B63B;
   color:black;
@@ -104,17 +114,7 @@ nav a:hover, p a:hover {
 
 
 li {
-  width: 50%;
-}
-
-a{
-  text-decoration: none;
-  font-style: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family:'Bebas Neue', cursive;
-  font-size: 1.5rem;
-  color: white;
+  width: 100%;
 }
 
 
