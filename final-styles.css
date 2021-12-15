@@ -60,6 +60,10 @@ nav a:hover, p a:hover {
   display: none;
 }
 
+#menu_nav {
+  display: flex;
+}
+
 @media (max-width: 850px) {
 
   li {
