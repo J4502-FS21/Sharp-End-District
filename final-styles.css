@@ -27,6 +27,19 @@ padding: 2px;
 color: white;
 }
 
+p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 700px;
+  width: 90%;
+  text-align: left;
+  display: grid;
+  color: white;
+}
+
 a{
   text-decoration: none;
   font-style: none;
@@ -122,17 +135,5 @@ img{
   border: 0;
 }
 
-p{
-  font-family: 'Roboto Slab', serif;
-  font-size: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  max-width: 700px;
-  width: 90%;
-  text-align: left;
-  display: grid;
-  color: white;
-}
 
 }
