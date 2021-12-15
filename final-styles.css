@@ -67,7 +67,7 @@ nav a:hover, p a:hover {
 @media (max-width: 850px) {
 
   li {
-    width: 50%;
+    width: 25%;
   }
 
 }
@@ -97,13 +97,12 @@ nav a:hover, p a:hover {
   #menu_nav {
     display: none;
   }
-
+}
 
 li {
   display: inline;
   margin: 10px;
   padding: 10px;
-  width: 10%;
 }
 
 a{
